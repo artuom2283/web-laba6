@@ -1,0 +1,128 @@
+/* Общие стили */
+body {
+  background-color: #343a40; /* Цвет фона */
+}
+
+header {
+  padding: 20px 0;
+  background-color: #212529; /* Цвет фона хедера */
+}
+
+header h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Секция формы регистрации */
+.formSignUp {
+  padding: 40px 0;
+}
+
+.formSignUp__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.formSignUp__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formSignUp__border {
+  background-color: grey;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formSignUp form {
+  display: flex;
+}
+
+/* Левая часть формы регистрации */
+.formSignUp__area__left {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.input__all {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.black {
+  color: black;
+}
+
+.button__1 {
+  width: 100%;
+  padding: 12px;
+  background-color: #dc3545; /* Цвет кнопки */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newLine {
+  color: black;
+}
+
+.button__1:hover {
+  background-color: #c82333; 
+}
+
+/* Правая часть формы регистрации */
+.formSignUp__area__right {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: none;
+  margin-bottom: 15px;
+}
+
+.label_newLine {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Стили для радиокнопок и кнопки в правой части формы */
+.formSignUp__area__right label {
+  margin-right: 10px;
+}
+
+.button__2 {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745; /* Цвет кнопки */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button__2:hover {
+  background-color: #218838; /* Цвет кнопки при наведении */
+}
+
+/* Стили для подвала (футера) */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #212529; /* Цвет фона футера */
+  color: #fff;
+}
+
+/* Дополнительные стили при необходимости */
